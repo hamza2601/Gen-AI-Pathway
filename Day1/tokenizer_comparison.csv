@@ -1,0 +1,35 @@
+string,gpt4_tokens,gpt2_tokens,difference,ratio
+"print(""hello"")",4,4,0,1.0
+"def factorial(n):
+    if n == 0:
+        return 1",15,25,10,1.67
+"const x = {a: 1, b: [2,3,4]};",19,18,-1,0.95
+"{""key"": ""value"", ""num"": 42, ""nested"": {""a"": 1}}",21,20,-1,0.95
+SELECT * FROM users WHERE id = 1;,10,9,-1,0.9
+<html><body><h1>Hello</h1></body></html>,15,17,2,1.13
+x = 5 + 3 * (2 - 8) / 4,17,13,-4,0.76
+README.md,2,4,2,2.0
+میرا نام John ہے,11,15,4,1.36
+Ich liebe KI und machine learning,7,9,2,1.29
+Dies ist ein Test mit 123 Zahlen,9,11,2,1.22
+مرحبا بالعالم,10,12,2,1.2
+नमस्ते दुनिया,13,23,10,1.77
+你好世界,5,8,3,1.6
+👨‍👩‍👧‍👦,18,14,-4,0.78
+🚀🔥💯,8,9,1,1.12
+Hello 👋 world 🌍!!!,8,8,0,1.0
+🇺🇸🇬🇧🇯🇵,18,18,0,1.0
+https://example.com/very/long/path?a=1&b=2&c=3,20,23,3,1.15
+https://sub.domain.co.uk/another/very/long/path/with/many/segments,19,24,5,1.26
+https://t.co/veryshort,7,8,1,1.14
+aaaaaaaaaaaaaaaaaaaa,3,5,2,1.67
+1234567890,4,4,0,1.0
+"1,234,567.89",7,8,1,1.14
+COVID-19,3,4,1,1.33
+supercalifragilisticexpialidocious,11,11,0,1.0
+"   
+
+	   ",2,8,6,4.0
+¯\_(ツ)_/¯,8,8,0,1.0
+"!!!???...,,,",4,5,1,1.25
+The quick brown fox jumps over the lazy dog.,10,10,0,1.0
